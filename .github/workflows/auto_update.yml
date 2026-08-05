@@ -1,0 +1,72 @@
+name: Auto Update Conan Episodes
+
+on:
+  schedule:
+    # 每天 UTC 01:00（北京时间 09:00）自动运行
+    - cron: "0 1 * * *"
+  workflow_dispatch: # 支持手动触发
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 获取 B站最新剧集数据
+        run: python scripts/fetch_bilibili.py
+
+      - name: 获取 conanpedia 角色数据（增量）
+        run: python scripts/fetch_characters.py
+
+      - name: 合并并更新最终 JSON
+        id: merge
+        run: python scripts/merge_update.py
+
+      - name: 生成原版 TV 版数据
+        run: python scripts/build_original.py
+
+      - name: 构建前端静态数据
+        run: |
+          python conan-tracker/scripts/build_static_data.py
+
+      - name: 提交更新（含保活心跳）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 数据有变化：提交数据更新
+          if [ -n "$(git status --porcelain -- data/ .cache/ conan-tracker/public/data/)" ]; then
+            git add data/ .cache/ conan-tracker/public/data/
+            git commit -m "chore: 自动更新柯南剧集数据 $(date -u +'%Y-%m-%d')"
+          fi
+
+          # 保活心跳：每天至少提交一次（即使数据无变化），
+          # 防止 GitHub 因仓库 60 天无活动自动暂停 scheduled workflow
+          if [ "$(cat .keepalive 2>/dev/null)" != "$(date -u +'%Y-%m-%d')" ]; then
+            echo "$(date -u +'%Y-%m-%d')" > .keepalive
+            git add .keepalive
+            git commit -m "chore: 保活心跳 $(date -u +'%Y-%m-%d')"
+          fi
+
+          git push

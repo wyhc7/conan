@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# wikitext.json 缓存需入库以支持 Actions 增量更新；派生 JSON 每次重建，不入库
+.cache/cp_episodes.json
+.cache/cp_split_mapping.json
