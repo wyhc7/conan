@@ -137637,7 +137637,69 @@
     "name": "完美丈夫",
     "link": "https://www.bilibili.com/bangumi/play/ep833841",
     "pub_date": "2024-08-24",
-    "characters": null
+    "characters": [
+      {
+        "name": "江户川柯南",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高山南"
+      },
+      {
+        "name": "毛利兰",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "山崎和佳奈"
+      },
+      {
+        "name": "毛利小五郎",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "小山力也"
+      },
+      {
+        "name": "目暮十三",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "茶风林"
+      },
+      {
+        "name": "高木涉",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高木涉"
+      },
+      {
+        "name": "陆奥丽子",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "远藤绫"
+      },
+      {
+        "name": "陆奥太郎",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "下和田裕贵"
+      },
+      {
+        "name": "乾绅司",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "船木真人"
+      },
+      {
+        "name": "赤松猛",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": ""
+      },
+      {
+        "name": "鉴识员",
+        "category": "其他角色",
+        "status": null,
+        "voice_actor": "尾高庆安"
+      }
+    ],
+    "character_source": "https://www.conanpedia.com/TV1133_最佳丈夫"
   },
   {
     "bilibili_episode": "1192",
