@@ -122393,6 +122393,107 @@
     "character_source": "https://www.conanpedia.com/TV1137_排队名店，味道改变的秘密"
   },
   {
+    "tv_episode": "1138",
+    "tv_range": "1138",
+    "split_range": "1196",
+    "bilibili_episodes": [
+      1196
+    ],
+    "name": "流动派出所",
+    "characters": [
+      {
+        "name": "江户川柯南",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高山南"
+      },
+      {
+        "name": "工藤新一",
+        "category": "常驻角色",
+        "status": "提及",
+        "voice_actor": ""
+      },
+      {
+        "name": "毛利兰",
+        "category": "常驻角色",
+        "status": "提及",
+        "voice_actor": ""
+      },
+      {
+        "name": "毛利小五郎",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "小山力也"
+      },
+      {
+        "name": "灰原哀",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "林原惠美"
+      },
+      {
+        "name": "吉田步美",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "岩居由希子"
+      },
+      {
+        "name": "圆谷光彦",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "大谷育江"
+      },
+      {
+        "name": "小岛元太",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高木涉"
+      },
+      {
+        "name": "高木涉",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高木涉"
+      },
+      {
+        "name": "青岛花音",
+        "category": "案件角色",
+        "voice_actor": "潘芽具实（潘惠美）"
+      },
+      {
+        "name": "石田弘毅",
+        "category": "案件角色",
+        "voice_actor": "KENN"
+      },
+      {
+        "name": "本间健介",
+        "category": "案件角色",
+        "voice_actor": "石川英郎"
+      },
+      {
+        "name": "黑木哲也",
+        "category": "案件角色",
+        "voice_actor": "增元拓也"
+      },
+      {
+        "name": "龙胆",
+        "category": "案件角色",
+        "voice_actor": ""
+      },
+      {
+        "name": "警官",
+        "category": "案件角色",
+        "voice_actor": "加藤将之、船木真人、光部树"
+      },
+      {
+        "name": "标准小黑",
+        "category": "黑影君",
+        "identity": "犯人"
+      }
+    ],
+    "character_source": "https://www.conanpedia.com/TV1138_流动派出所"
+  },
+  {
     "tv_episode": "1141",
     "tv_range": "1141",
     "split_range": "1199",
