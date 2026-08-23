@@ -13976,7 +13976,7 @@
   "ep_id": 4942569,
   "bvid": "BV1U13g6rEEb",
   "pub_date": "2026-07-25",
-  "duration": 1483000,
+  "duration": 1482398,
   "characters": null,
   "character_source": null
  },
@@ -13987,7 +13987,18 @@
   "ep_id": 5057404,
   "bvid": "BV1xsGV62Egm",
   "pub_date": "2026-08-01",
-  "duration": 1428000,
+  "duration": 1482273,
+  "characters": null,
+  "character_source": null
+ },
+ {
+  "bilibili_episode": "1270",
+  "name": "受诅咒的邻居",
+  "link": "https://www.bilibili.com/bangumi/play/ep5596827",
+  "ep_id": 5596827,
+  "bvid": "BV1SL8169Enf",
+  "pub_date": "2026-08-22",
+  "duration": 1483000,
   "characters": null,
   "character_source": null
  }
