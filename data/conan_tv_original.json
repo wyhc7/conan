@@ -44383,6 +44383,100 @@
     "character_source": "https://www.conanpedia.com/TV423_侦探团与毛毛虫四兄弟"
   },
   {
+    "tv_episode": "423",
+    "tv_range": "423",
+    "split_range": "457",
+    "bilibili_episodes": [
+      457
+    ],
+    "name": "侦探团与青虫四兄弟",
+    "characters": [
+      {
+        "name": "江户川柯南",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高山南"
+      },
+      {
+        "name": "灰原哀",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "林原惠美"
+      },
+      {
+        "name": "小岛元太",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高木涉"
+      },
+      {
+        "name": "圆谷光彦",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "大谷育江"
+      },
+      {
+        "name": "吉田步美",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "岩居由希子"
+      },
+      {
+        "name": "高木涉",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高木涉"
+      },
+      {
+        "name": "佐藤美和子",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "汤屋敦子"
+      },
+      {
+        "name": "三井圭一",
+        "category": "案件角色",
+        "voice_actor": "野田顺子"
+      },
+      {
+        "name": "松浦仙吉",
+        "category": "案件角色",
+        "voice_actor": "小岛敏彦"
+      },
+      {
+        "name": "吉川稔",
+        "category": "案件角色",
+        "voice_actor": "细井治"
+      },
+      {
+        "name": "藤堂",
+        "category": "案件角色",
+        "voice_actor": "半场友惠"
+      },
+      {
+        "name": "志村",
+        "category": "案件角色",
+        "voice_actor": ""
+      },
+      {
+        "name": "太郎、次郎<br>三郎、四郎",
+        "category": "案件角色",
+        "voice_actor": ""
+      },
+      {
+        "name": "出租车司机",
+        "category": "案件角色",
+        "voice_actor": "堀部隆一"
+      },
+      {
+        "name": "标准小黑",
+        "category": "黑影君",
+        "identity": ""
+      }
+    ],
+    "character_source": "https://www.conanpedia.com/TV423_侦探团与青虫四兄弟"
+  },
+  {
     "tv_episode": "424",
     "tv_range": "424",
     "split_range": "458",
