@@ -123526,5 +123526,84 @@
       }
     ],
     "character_source": "https://www.conanpedia.com/TV1200_门前快递失窃频发中"
+  },
+  {
+    "tv_episode": "1213",
+    "tv_range": "1213",
+    "split_range": "1273",
+    "bilibili_episodes": [
+      1273
+    ],
+    "name": "目击者，毛利兰",
+    "characters": [
+      {
+        "name": "江户川柯南",
+        "category": "常驻角色",
+        "status": "登场<br>变声",
+        "voice_actor": "高山南"
+      },
+      {
+        "name": "毛利兰",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "冈村明美"
+      },
+      {
+        "name": "铃木园子",
+        "category": "常驻角色",
+        "status": "登场<br>声音",
+        "voice_actor": "松井菜樱子"
+      },
+      {
+        "name": "目暮十三",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "茶风林"
+      },
+      {
+        "name": "高木涉",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高木涉"
+      },
+      {
+        "name": "千叶和伸",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "千叶一伸"
+      },
+      {
+        "name": "工藤新一",
+        "category": "常驻角色",
+        "status": "提及",
+        "voice_actor": ""
+      },
+      {
+        "name": "见里顺太",
+        "category": "案件角色",
+        "voice_actor": "大冢刚央"
+      },
+      {
+        "name": "蝶冢一彦",
+        "category": "案件角色",
+        "voice_actor": "宫崎聪"
+      },
+      {
+        "name": "武藤那子",
+        "category": "案件角色",
+        "voice_actor": "行成飞亚"
+      },
+      {
+        "name": "石伊早矢香",
+        "category": "案件角色",
+        "voice_actor": ""
+      },
+      {
+        "name": "视线型小黑",
+        "category": "黑影君",
+        "identity": ""
+      }
+    ],
+    "character_source": "https://www.conanpedia.com/TV1213_目击者，毛利兰"
   }
 ]
