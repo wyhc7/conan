@@ -139306,7 +139306,93 @@
     "name": "翻滚跌落的男子",
     "link": "https://www.bilibili.com/bangumi/play/ep4727148",
     "pub_date": "2026-07-11",
-    "characters": null
+    "characters": [
+      {
+        "name": "江户川柯南",
+        "category": "常驻角色",
+        "status": "登场<br>变声",
+        "voice_actor": "高山南"
+      },
+      {
+        "name": "毛利小五郎",
+        "category": "常驻角色",
+        "status": "登场<br>声音",
+        "voice_actor": "小山力也"
+      },
+      {
+        "name": "目暮十三",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "茶风林"
+      },
+      {
+        "name": "高木涉",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "高木涉"
+      },
+      {
+        "name": "千叶和伸",
+        "category": "常驻角色",
+        "status": "登场",
+        "voice_actor": "千叶一伸"
+      },
+      {
+        "name": "坪田练",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "增元拓也"
+      },
+      {
+        "name": "小岩井乔",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "小林裕介"
+      },
+      {
+        "name": "大柴六郎",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "藤本隆弘"
+      },
+      {
+        "name": "千驮木朝雄",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "拜真之介"
+      },
+      {
+        "name": "谷中昼之助",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "石野龙三"
+      },
+      {
+        "name": "根津小夜",
+        "category": "案件角色",
+        "status": null,
+        "voice_actor": "龟井芳子"
+      },
+      {
+        "name": "套餐餐厅店员",
+        "category": "其他角色",
+        "status": null,
+        "voice_actor": "须能千裕"
+      },
+      {
+        "name": "女子",
+        "category": "其他角色",
+        "status": null,
+        "voice_actor": "山川琴美"
+      },
+      {
+        "name": "标准小黑",
+        "category": "黑影君",
+        "status": null,
+        "voice_actor": null
+      }
+    ],
+    "character_source": "https://www.conanpedia.com/TV1206_滚落下来的男子"
   },
   {
     "bilibili_episode": "1267",
